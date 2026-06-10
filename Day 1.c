@@ -13,5 +13,53 @@ int main()
     }
     printf("Sum of first %d natural numbers = %d", n, sum);
 
+    return 0
+}
+#include <stdio.h>
+
+int main() {
+    int num, i;
+
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    for(i = 1; i <= 10; i++) {
+        printf("%d x %d = %d\n", num, i, num * i);
+    }
+
+    return 0;
+}
+#include <stdio.h>
+
+int main() {
+    int n, i;
+    long long factorial = 1;
+
+    printf("Enter a number: ");
+    scanf("%d", &n);
+
+    for(i = 1; i <= n; i++) {
+        factorial = factorial * i;
+    }
+
+    printf("Factorial of %d = %lld", n, factorial);
+
+    return 0;
+}
+#include <stdio.h>
+
+int main() {
+    int num, count = 0;
+
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    while(num != 0) {
+        num = num / 10;
+        count++;
+    }
+
+    printf("Number of digits = %d", count);
+
     return 0;
 }
