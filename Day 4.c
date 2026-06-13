@@ -1,12 +1,12 @@
 #include <stdio.h>
-
+#include <conio.h>
 int main() {
     int n, a = 0, b = 1, c, i;
 
     printf("Enter number of terms: ");
     scanf("%d", &n);
 
-    printf("Fibonacci Series: ");
+    printf("Fibonacci Series:");
 
     for(i = 1; i <= n; i++) {
         printf("%d ", a);
@@ -20,13 +20,13 @@ int main() {
 
 
 #include <stdio.h>
-
+#include <conio.h>
 int main() {
     int n, a = 0, b = 1, c, i;
 
     printf("Enter value of n: ");
-    scanf("%d", &n);
-
+    scanf("%d", &n)
+    
     if(n == 1)
         printf("Nth Fibonacci term = %d", a);
     else if(n == 2)
