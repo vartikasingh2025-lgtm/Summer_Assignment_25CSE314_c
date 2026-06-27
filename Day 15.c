@@ -112,7 +112,7 @@ int main() {
 
     moveZeroesToEnd(arr, n);
 
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i <c n; i++)
         printf("%d ", arr[i]);
 
     return 0;
